@@ -3,17 +3,11 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  if text =~ /^[un].*ing$/
-    puts true
-  end
+  if text =~ /^[un].*ing$/ != false
 end
 
 def words_five_letters_long(text)
-  if text =~ /\b\w{1,5}\b/
-    return true
-  else
-    return false
-  end
+  if text =~ /\b\w{1,5}\b/ != false
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
