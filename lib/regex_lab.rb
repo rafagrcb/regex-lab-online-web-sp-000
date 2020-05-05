@@ -4,9 +4,9 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   if (text =~ /^[un].*ing$/)
-    puts true
+    return true
   else
-    puts false
+    return false
   end
 end
 
